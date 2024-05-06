@@ -1370,9 +1370,6 @@ body {
   }
 }
 @media screen and (min-width: 860px) {
-  #es-vichy.es-vichy .es-cross__container {
-    justify-content: space-between;
-  }
   #es-vichy.es-vichy .es-cross__single:not(:last-child) {
     margin-bottom: 25px;
   }
@@ -1475,6 +1472,9 @@ body {
   #es-vichy.es-vichy .es-ingr__slides--desktop {
     max-width: none;
     gap: 0;
+  }
+  #es-vichy.es-vichy .es-cross__container {
+    justify-content: space-between;
   }
   #es-vichy.es-vichy .es-cross__single {
     max-width: 205px;
